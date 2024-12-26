@@ -9,7 +9,7 @@ url: "https://exodius.my.id"
 baseurl: "/"
 
 collections:
-  services:
+  produk:
     output: true
     permalink: /:collection/:name
 
