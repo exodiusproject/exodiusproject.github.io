@@ -1,0 +1,323 @@
+---
+layout: base
+title: Beranda
+body_class: index-page
+---
+
+<!-- Hero Section -->
+<section id="hero" class="hero section dark-background">
+  <img
+    src="assets/img/hero-bg.jpg"
+    alt=""
+    data-aos="fade-in"
+    style="opacity: 0.4"
+  />
+
+  <div class="container">
+    <div
+      class="row justify-content-center text-center"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <div class="col-xl-6 col-lg-8">
+        <h2>{{ site.subtitle | safe }}</h2>
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+
+    <div
+      class="row gy-4 mt-5 justify-content-center"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
+      <div
+        class="col-xl-2 col-md-4 col-6"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div class="icon-box">
+          <i class="bi bi-box-fill"></i>
+          <h3>
+            <a href="{{ 'services/seedbox' | relative_url }}">Seedbox</a>
+          </h3>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-2 col-md-4 col-6"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div class="icon-box">
+          <svg
+            fill="#ffc451"
+            viewBox="0 0 24 24"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon-size"
+            style="width: 4em; height: 4em"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <title>Nextcloud icon</title>
+              <path
+                d="M12.018 6.537c-2.5 0-4.6 1.712-5.241 4.015-.56-1.232-1.793-2.105-3.225-2.105A3.569 3.569 0 0 0 0 12a3.569 3.569 0 0 0 3.552 3.553c1.432 0 2.664-.874 3.224-2.106.641 2.304 2.742 4.016 5.242 4.016 2.487 0 4.576-1.693 5.231-3.977.569 1.21 1.783 2.067 3.198 2.067A3.568 3.568 0 0 0 24 12a3.569 3.569 0 0 0-3.553-3.553c-1.416 0-2.63.858-3.199 2.067-.654-2.284-2.743-3.978-5.23-3.977zm0 2.085c1.878 0 3.378 1.5 3.378 3.378 0 1.878-1.5 3.378-3.378 3.378A3.362 3.362 0 0 1 8.641 12c0-1.878 1.5-3.378 3.377-3.378zm-8.466 1.91c.822 0 1.467.645 1.467 1.468s-.644 1.467-1.467 1.468A1.452 1.452 0 0 1 2.085 12c0-.823.644-1.467 1.467-1.467zm16.895 0c.823 0 1.468.645 1.468 1.468s-.645 1.468-1.468 1.468A1.452 1.452 0 0 1 18.98 12c0-.823.644-1.467 1.467-1.467z"
+              ></path>
+            </g>
+          </svg>
+          <h3><a href="">Nextcloud</a></h3>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-2 col-md-4 col-6"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        <div class="icon-box">
+          <i class="bi bi-gear-fill"></i>
+          <h3><a href="">Deploy Aplikasi (Self-Host)</a></h3>
+        </div>
+      </div>
+      <div
+        class="col-xl-2 col-md-4 col-6"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        <div class="icon-box">
+          <h3><a href="#services">...dan masih banyak lagi!</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Hero Section -->
+
+<!-- About Section -->
+<section id="about" class="about section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+      </div>
+      <div class="col-lg-6 order-2 order-lg-1 content">
+        <h3>Kami Siap Membantu!</h3>
+        <p>
+          Exodius menyediakan berbagai macam layanan digital dengan kualitas
+          terbaik untuk menunjang pekerjaan Anda.
+        </p>
+        <ul>
+          <li>
+            <i class="bi bi-check2-all"></i>
+            <span
+              ><strong>Pesan online</strong>: Buat pesanan secara online melalui
+              kontak tim Exodius.</span
+            >
+          </li>
+          <li>
+            <i class="bi bi-check2-all"></i>
+            <span
+              ><strong>Pembayaran mudah</strong>: Bayar dengan cepat melalui
+              QRIS, tanpa biaya admin!</span
+            >
+          </li>
+          <li>
+            <i class="bi bi-check2-all"></i>
+            <span
+              ><strong>Proses cepat</strong>: Pesanan segera diproses ketika
+              admin online.</span
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /About Section -->
+
+<!-- Services Section -->
+<section id="services" class="services section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Produk</h2>
+    <p>Lihat Produk</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-box-fill"></i>
+          </div>
+          <h3>Seedbox</h3>
+          <p>
+            Seedbox pribadi murah untuk mengunduh file
+            <i>torrent</i> berkecepatan tinggi, disertai dengan
+            <i>direct link</i>.
+          </p>
+          <a
+            class="btn btn-outline-dark shadow stretched-link mt-3"
+            href="{{ 'services/seedbox' | relative_url }}"
+          >
+            Detail Produk
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+      <!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <svg
+              fill="#000000"
+              viewBox="0 0 24 24"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              class="mx-2"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>Nextcloud icon</title>
+                <path
+                  d="M12.018 6.537c-2.5 0-4.6 1.712-5.241 4.015-.56-1.232-1.793-2.105-3.225-2.105A3.569 3.569 0 0 0 0 12a3.569 3.569 0 0 0 3.552 3.553c1.432 0 2.664-.874 3.224-2.106.641 2.304 2.742 4.016 5.242 4.016 2.487 0 4.576-1.693 5.231-3.977.569 1.21 1.783 2.067 3.198 2.067A3.568 3.568 0 0 0 24 12a3.569 3.569 0 0 0-3.553-3.553c-1.416 0-2.63.858-3.199 2.067-.654-2.284-2.743-3.978-5.23-3.977zm0 2.085c1.878 0 3.378 1.5 3.378 3.378 0 1.878-1.5 3.378-3.378 3.378A3.362 3.362 0 0 1 8.641 12c0-1.878 1.5-3.378 3.377-3.378zm-8.466 1.91c.822 0 1.467.645 1.467 1.468s-.644 1.467-1.467 1.468A1.452 1.452 0 0 1 2.085 12c0-.823.644-1.467 1.467-1.467zm16.895 0c.823 0 1.468.645 1.468 1.468s-.645 1.468-1.468 1.468A1.452 1.452 0 0 1 18.98 12c0-.823.644-1.467 1.467-1.467z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <h3>Nextcloud</h3>
+          <p>
+            Server Nextcloud untuk menyimpan file, sebagai alternatif dari
+            Google Drive.
+          </p>
+          <a
+            class="btn btn-outline-dark shadow stretched-link mt-3"
+            href="service-details.html"
+          >
+            Detail Produk
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+      <!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <svg
+              fill="#000000"
+              viewBox="0 0 24 24"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              class="mx-3"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>OpenVPN icon</title>
+                <path
+                  d="M12 .365C5.385.365 0 5.697 0 12.26c0 4.36 2.358 8.154 5.896 10.205l.77-5.076A7.046 7.046 0 0 1 4.82 12.67c0-3.897 3.18-7.076 7.13-7.076 3.948 0 7.126 3.179 7.126 7.076 0 1.847-.717 3.488-1.846 4.77l.77 5.078c3.59-2.051 6-5.899 6-10.258C24 5.697 18.615.365 12 .365zm-.05 8.156a3.786 3.786 0 0 0-3.796 3.795 3.738 3.738 0 0 0 2.461 3.54L9.13 23.65h5.64l-1.435-7.795c1.385-.564 2.41-1.898 2.41-3.539a3.786 3.786 0 0 0-3.795-3.795z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Tunnel OpenVPN</h3>
+          </a>
+          <p>
+            Server OpenVPN personal untuk <i>tunneling</i> atau publikasi home
+            server
+          </p>
+          <a class="btn btn-outline-dark shadow stretched-link mt-3" href="#">
+            Detail Produk
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+      <!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-gear-fill"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Deploy Aplikasi (Self-Host)</h3>
+          </a>
+          <p>
+            Menyediakan server & panel kontrol untuk deploy layanan Anda, dalam
+            bentuk aplikasi, Docker, hingga repositori Git sekalipun.
+          </p>
+          <a class="btn btn-outline-dark shadow stretched-link mt-3" href="#">
+            Detail Produk
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+      <!-- End Service Item -->
+    </div>
+  </div>
+</section>
+<!-- /Services Section -->
+
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Ada Pertanyaan?</h2>
+    <p>Hubungi Kami</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-globe flex-shrink-0"></i>
+          <div>
+            <h3>Website</h3>
+            <p>https://exodius.my.id</p>
+          </div>
+        </div>
+        <!-- End Info Item -->
+      </div>
+      <div class="col">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-telegram flex-shrink-0"></i>
+          <div>
+            <h3>Telegram</h3>
+            <p>@hai_exodius</p>
+          </div>
+        </div>
+        <!-- End Info Item -->
+      </div>
+      <div class="col">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Email</h3>
+            <p>hai.exodius@gmail.com</p>
+          </div>
+        </div>
+        <!-- End Info Item -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Contact Section -->

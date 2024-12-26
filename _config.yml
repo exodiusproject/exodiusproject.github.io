@@ -1,0 +1,26 @@
+# site settings
+title: Exodius
+subtitle: |
+  Layanan Produk Digital <u>Terpercaya</u>
+email: hai.exodius@gmail.com
+description: |
+  Penuhi kebutuhan digital Anda melalui layanan dari <strong>Exodius</strong>
+url: "https://exodius.my.id"
+baseurl: "/"
+
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
